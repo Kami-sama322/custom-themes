@@ -1,25 +1,40 @@
-# vscode_themas — темы VS Code
+# vscode_themas — VS Code Themes
 
-Отдельный репозиторий для тем VS Code. Каждая тема — отдельная папка с минимальным расширением (package.json + themes/).
-Правила репозитория и рецепт создания новой темы — [AGENTS.md](AGENTS.md).
+A collection of custom VS Code color themes. Each theme is a standalone extension in its own folder (`package.json` + `themes/`).
 
-Сборка VSIX из папки темы:
+Repository rules and the theme-creation recipe live in [AGENTS.md](AGENTS.md).
+
+## Themes
+
+| Folder | Theme label | Description |
+|---|---|---|
+| `pokemon-dark/` | Pokémon Dark | Dark theme based on the Pokémon Dark palette |
+| `pokemon-dark-pastel/` | Pokémon Dark Pastel | Dark theme with a soft pastel Pokémon palette |
+
+## Build
+
+Build a VSIX from a theme folder:
 
 ```bash
-cd pokemon-dark
+cd pokemon-dark-pastel
 npx @vscode/vsce package --no-dependencies --allow-missing-repository
 ```
 
-Установка:
+- `--no-dependencies` — themes have no dependencies.
+- `--allow-missing-repository` — private repo without a real `repository` URL in the manifest.
+
+## Install
 
 ```bash
-code --install-extension pokemon-dark-0.1.0.vsix
+code --install-extension <theme-name>-<version>.vsix
 ```
 
-VSIX в git не кладутся (`.gitignore`), собираются на месте.
+Verify:
 
-## Темы
+```bash
+code --list-extensions --show-versions | grep <theme-name>
+```
 
-|Папка|Тема в палитре|
-|---|---|
-|`pokemon-dark/`|Pokémon Dark|
+Then pick the theme via `Ctrl+K Ctrl+T`.
+
+VSIX files are not committed (`.gitignore`) — they are built locally on demand.
