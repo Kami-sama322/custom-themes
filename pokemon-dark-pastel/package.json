@@ -1,0 +1,23 @@
+{
+  "name": "pokemon-dark-pastel",
+  "displayName": "Pokémon Dark Pastel",
+  "description": "Dark theme with a soft pastel Pokémon palette",
+  "version": "0.1.8",
+  "publisher": "user1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pokémon Dark Pastel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pokemon-dark-pastel-color-theme.json"
+      }
+    ]
+  }
+}
