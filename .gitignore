@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.vsix
+*.vsix
+.DS_Store
+Thumbs.db
+AGENTS.md
