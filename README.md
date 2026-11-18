@@ -1,8 +1,14 @@
 # Custom themes
 
-Four Pokémon palettes for development tools: Dark, Dark Pastel, Light, and Light Pastel. The VS Code themes in `vscode/` are the source palettes. Other applications expose different styling capabilities, so each tool adapts the same visual roles.
+Four Pokémon palettes for development tools: Dark, Dark Pastel, Light, and Light Pastel.
 
 Dark and Dark Pastel share navy surfaces. Light and Light Pastel share white surfaces. Pastel variants soften accent, status, and text colors and keep the surfaces of their pair. These are the source role colors from the VS Code themes:
+
+---
+
+<img src="./assets/theme_example.png" alt="Example" width="500">
+
+---
 
 | Role | Dark | Dark Pastel | Light | Light Pastel |
 |---|---|---|---|---|
