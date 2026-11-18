@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pokémon DBeaver Themes
+Bundle-SymbolicName: user1.pokemon.dbeaver.themes;singleton:=true
+Bundle-Version: 1.0.4
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Require-Bundle: org.eclipse.ui.themes,org.jkiss.dbeaver.core
+

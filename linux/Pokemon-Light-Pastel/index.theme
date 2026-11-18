@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Pokémon Light Pastel
+Type=X-GNOME-Metatheme
+Comment=Light pastel theme for Ubuntu GNOME
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Pokemon-Light-Pastel
+MetacityTheme=Yaru
+IconTheme=Yaru
+CursorTheme=Yaru

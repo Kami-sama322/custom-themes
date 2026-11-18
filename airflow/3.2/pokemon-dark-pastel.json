@@ -1,0 +1,65 @@
+{
+  "tokens": {
+    "colors": {
+      "brand": {
+        "50": {"value": "oklch(0.969878 0.009880 267.3593)"},
+        "100": {"value": "oklch(0.936012 0.017456 264.4837)"},
+        "200": {"value": "oklch(0.906139 0.113779 93.7733)"},
+        "300": {"value": "oklch(0.883599 0.128983 93.6665)"},
+        "400": {"value": "oklch(0.849577 0.130747 88.9829)"},
+        "500": {"value": "oklch(0.655615 0.057692 268.6146)"},
+        "600": {"value": "oklch(0.377448 0.093462 267.6726)"},
+        "700": {"value": "oklch(0.313420 0.079161 268.0596)"},
+        "800": {"value": "oklch(0.273946 0.064855 268.4022)"},
+        "900": {"value": "oklch(0.224788 0.050156 268.7599)"},
+        "950": {"value": "oklch(0.156958 0.026584 268.7711)"}
+      },
+      "gray": {
+        "50": {"value": "oklch(0.969878 0.009880 267.3593)"},
+        "100": {"value": "oklch(0.936012 0.017456 264.4837)"},
+        "200": {"value": "oklch(0.794424 0.054554 269.9176)"},
+        "300": {"value": "oklch(0.655615 0.057692 268.6146)"},
+        "400": {"value": "oklch(0.655615 0.057692 268.6146)"},
+        "500": {"value": "oklch(0.377448 0.093462 267.6726)"},
+        "600": {"value": "oklch(0.313420 0.079161 268.0596)"},
+        "700": {"value": "oklch(0.273946 0.064855 268.4022)"},
+        "800": {"value": "oklch(0.224788 0.050156 268.7599)"},
+        "900": {"value": "oklch(0.156958 0.026584 268.7711)"},
+        "950": {"value": "oklch(0.156958 0.026584 268.7711)"}
+      },
+      "black": {"value": "oklch(0.156958 0.026584 268.7711)"},
+      "white": {"value": "oklch(0.936012 0.017456 264.4837)"}
+    }
+  },
+  "globalCss": {
+    "body": {
+      "_dark": {"backgroundColor": "#080C18", "color": "#E4EAF6"},
+      "--chakra-colors-success-solid": "#98D08C",
+      "--chakra-colors-failed-solid": "#E88F8F",
+      "--chakra-colors-queued-solid": "#AEBBE0",
+      "--chakra-colors-running-solid": "#8FD0DC",
+      "--chakra-colors-scheduled-solid": "#8290B5",
+      "--chakra-colors-skipped-solid": "#F9DF85",
+      "--chakra-colors-removed-solid": "#E4EAF6",
+      "--chakra-colors-restarting-solid": "#DDB4D2",
+      "--chakra-colors-deferred-solid": "#D2A0C0",
+      "--chakra-colors-up_for_reschedule-solid": "#A5DCE8",
+      "--chakra-colors-up_for_retry-solid": "#F5D76E",
+      "--chakra-colors-upstream_failed-solid": "#D9A87A",
+      "--chakra-colors-success-contrast": "#080C18",
+      "--chakra-colors-failed-contrast": "#080C18",
+      "--chakra-colors-queued-contrast": "#080C18",
+      "--chakra-colors-running-contrast": "#080C18",
+      "--chakra-colors-scheduled-contrast": "#080C18",
+      "--chakra-colors-skipped-contrast": "#080C18",
+      "--chakra-colors-removed-contrast": "#080C18",
+      "--chakra-colors-restarting-contrast": "#080C18",
+      "--chakra-colors-deferred-contrast": "#080C18",
+      "--chakra-colors-up_for_reschedule-contrast": "#080C18",
+      "--chakra-colors-up_for_retry-contrast": "#080C18",
+      "--chakra-colors-upstream_failed-contrast": "#080C18"
+    },
+    "a[href*='/dags/'][href*='/runs/']:not([href*='/tasks/']) > div > svg[height='10px'][width='10px'][style*='color: white']": {"color": "#080C18 !important"},
+    "::selection": {"backgroundColor": "#2C3E73", "color": "#E4EAF6"}
+  }
+}

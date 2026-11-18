@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Pokémon Light
+Type=X-GNOME-Metatheme
+Comment=Light blue and white theme for Ubuntu GNOME
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Pokemon-Light
+MetacityTheme=Yaru
+IconTheme=Yaru
+CursorTheme=Yaru

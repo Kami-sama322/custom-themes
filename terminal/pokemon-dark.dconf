@@ -1,0 +1,14 @@
+[/]
+visible-name='Pokémon Dark'
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+foreground-color='#F5F7FF'
+background-color='#080C18'
+cursor-colors-set=true
+cursor-background-color='#FFCB05'
+cursor-foreground-color='#080C18'
+highlight-colors-set=true
+highlight-background-color='#2C3E73'
+highlight-foreground-color='#F5F7FF'
+palette=['#121A33', '#FF4D4F', '#78C850', '#FFCB05', '#5563D8', '#E06C75', '#7EC8E3', '#F5F7FF', '#7E8AAF', '#FF6B6B', '#8ED060', '#FFD84D', '#7A86E3', '#FF8FA3', '#A5D8F0', '#FCFDFF']

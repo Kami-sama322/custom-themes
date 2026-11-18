@@ -1,0 +1,142 @@
+{
+  "algorithm": "dark",
+  "token": {
+    "colorPrimary": "#F5D76E",
+    "colorPrimaryHover": "#F0C960",
+    "colorPrimaryActive": "#F0C960",
+    "colorLink": "#F5D76E",
+    "colorLinkHover": "#F0C960",
+    "colorInfo": "#9AA6F0",
+    "colorSuccess": "#98D08C",
+    "colorWarning": "#F5D76E",
+    "colorError": "#E88F8F",
+    "colorText": "#E4EAF6",
+    "colorTextSecondary": "#AEBBE0",
+    "colorTextTertiary": "#8290B5",
+    "colorTextDisabled": "#8290B5",
+    "colorTextLightSolid": "#17275C",
+    "colorBgBase": "#080C18",
+    "colorBgLayout": "#080C18",
+    "colorBgContainer": "#121A33",
+    "colorBgElevated": "#1A2547",
+    "colorBgSpotlight": "#2C3E73",
+    "colorBorder": "#2C3E73",
+    "colorBorderSecondary": "#202E59",
+    "colorFill": "#1A2547",
+    "colorFillSecondary": "#202E59",
+    "colorFillTertiary": "#121A33",
+    "boxShadow": "0 2px 10px #00000066",
+    "boxShadowSecondary": "0 8px 24px #00000066"
+  },
+  "components": {
+    "Button": {
+      "primaryColor": "#17275C",
+      "primaryShadow": "0 2px 0 #00000066",
+      "defaultBorderColor": "#2C3E73"
+    },
+    "Menu": {
+      "darkItemBg": "#080C18",
+      "darkSubMenuItemBg": "#121A33",
+      "darkItemSelectedBg": "#2C3E73",
+      "darkItemSelectedColor": "#E4EAF6",
+      "darkItemHoverBg": "#1A2547",
+      "darkItemHoverColor": "#E4EAF6"
+    },
+    "Table": {
+      "headerBg": "#1A2547",
+      "headerColor": "#AEBBE0",
+      "rowHoverBg": "#1A2547",
+      "borderColor": "#2C3E73"
+    },
+    "Card": {
+      "headerBg": "#121A33"
+    },
+    "Input": {
+      "activeBorderColor": "#F5D76E",
+      "hoverBorderColor": "#2C3E73"
+    },
+    "Select": {
+      "optionSelectedBg": "#2C3E73"
+    },
+    "Tabs": {
+      "itemSelectedColor": "#E4EAF6",
+      "itemHoverColor": "#AEBBE0",
+      "inkBarColor": "#F5D76E"
+    },
+    "Tag": {
+      "defaultBg": "#202E59",
+      "defaultColor": "#AEBBE0"
+    }
+  },
+  "echartsOptionsOverrides": {
+    "color": [
+      "#F5D76E",
+      "#9AA6F0",
+      "#E88F8F",
+      "#98D08C",
+      "#8FD0DC",
+      "#D2A0C0",
+      "#F9DF85",
+      "#8C9AE8",
+      "#9BD68F",
+      "#A8D8E8",
+      "#DDB4D2",
+      "#E3C96A",
+      "#AEBBE0",
+      "#E4EAF6",
+      "#8290B5"
+    ],
+    "backgroundColor": "transparent",
+    "textStyle": {
+      "color": "#AEBBE0"
+    },
+    "title": {
+      "textStyle": {
+        "color": "#F5D76E"
+      }
+    },
+    "legend": {
+      "textStyle": {
+        "color": "#AEBBE0"
+      }
+    },
+    "tooltip": {
+      "backgroundColor": "#1A2547",
+      "borderColor": "#2C3E73",
+      "textStyle": {
+        "color": "#E4EAF6"
+      }
+    },
+    "categoryAxis": {
+      "axisLine": {
+        "lineStyle": {
+          "color": "#2C3E73"
+        }
+      },
+      "axisLabel": {
+        "color": "#AEBBE0"
+      },
+      "splitLine": {
+        "lineStyle": {
+          "color": "#202E59"
+        }
+      }
+    },
+    "valueAxis": {
+      "axisLine": {
+        "lineStyle": {
+          "color": "#2C3E73"
+        }
+      },
+      "axisLabel": {
+        "color": "#AEBBE0"
+      },
+      "splitLine": {
+        "lineStyle": {
+          "color": "#202E59",
+          "type": "dashed"
+        }
+      }
+    }
+  }
+}

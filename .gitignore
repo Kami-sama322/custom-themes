@@ -2,6 +2,14 @@ __pycache__/
 *.py[cod]
 .vsix
 *.vsix
+*.gresource
+node_modules/
+.idea/
+.vscode/
+*~
+*.swp
+*.swo
+*.log
 .DS_Store
 Thumbs.db
-AGENTS.md
+**/AGENTS.md

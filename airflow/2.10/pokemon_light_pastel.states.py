@@ -1,0 +1,15 @@
+STATE_COLORS = {
+    "deferred": "#A040A0",
+    "failed": "#C44747",
+    "queued": "#5E6C7A",
+    "removed": "#314050",
+    "restarting": "#3D4E85",
+    "running": "#157A8C",
+    "scheduled": "#5563D8",
+    "shutdown": "#4553C0",
+    "skipped": "#3B7A32",
+    "success": "#2F7A28",
+    "up_for_reschedule": "#1A6B7A",
+    "up_for_retry": "#8A6A00",
+    "upstream_failed": "#2A1113",
+}

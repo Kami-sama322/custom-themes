@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Pokémon Dark Pastel
+Type=X-GNOME-Metatheme
+Comment=Dark navy and pastel yellow theme for Ubuntu GNOME
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Pokemon-Dark-Pastel
+MetacityTheme=Yaru-dark
+IconTheme=Yaru
+CursorTheme=Yaru

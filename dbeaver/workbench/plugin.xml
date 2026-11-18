@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+  <extension point="org.eclipse.e4.ui.css.swt.theme">
+    <theme id="user1.pokemon.dark" label="Pokémon Dark" basestylesheeturi="css/pokemon-dark-linux.css" os="linux"/>
+    <theme id="user1.pokemon.pastel" label="Pokémon Dark Pastel" basestylesheeturi="css/pokemon-dark-pastel-linux.css" os="linux"/>
+    <theme id="user1.pokemon.light" label="Pokémon Light" basestylesheeturi="css/pokemon-light-linux.css" os="linux"/>
+    <theme id="user1.pokemon.light.pastel" label="Pokémon Light Pastel" basestylesheeturi="css/pokemon-light-pastel-linux.css" os="linux"/>
+  </extension>
+</plugin>

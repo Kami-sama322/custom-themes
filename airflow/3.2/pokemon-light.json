@@ -1,0 +1,116 @@
+{
+  "tokens": {
+    "colors": {
+      "brand": {
+        "50": {
+          "value": "oklch(0.976157 0.011132 269.5511)"
+        },
+        "100": {
+          "value": "oklch(0.959953 0.019020 276.3490)"
+        },
+        "200": {
+          "value": "oklch(0.945691 0.025945 276.4041)"
+        },
+        "300": {
+          "value": "oklch(0.904861 0.046010 274.6754)"
+        },
+        "400": {
+          "value": "oklch(0.618769 0.152265 274.7067)"
+        },
+        "500": {
+          "value": "oklch(0.483819 0.194430 271.1402)"
+        },
+        "600": {
+          "value": "oklch(0.446499 0.184205 270.2052)"
+        },
+        "700": {
+          "value": "oklch(0.374571 0.144729 270.2897)"
+        },
+        "800": {
+          "value": "oklch(0.278078 0.029596 256.8480)"
+        },
+        "900": {
+          "value": "oklch(0.278078 0.029596 256.8480)"
+        },
+        "950": {
+          "value": "oklch(0.278078 0.029596 256.8480)"
+        }
+      },
+      "gray": {
+        "50": {
+          "value": "oklch(1.000000 0.000000 89.8756)"
+        },
+        "100": {
+          "value": "oklch(0.976157 0.011132 269.5511)"
+        },
+        "200": {
+          "value": "oklch(0.959953 0.019020 276.3490)"
+        },
+        "300": {
+          "value": "oklch(0.941441 0.020664 274.0347)"
+        },
+        "400": {
+          "value": "oklch(0.904861 0.046010 274.6754)"
+        },
+        "500": {
+          "value": "oklch(0.618005 0.024199 250.3483)"
+        },
+        "600": {
+          "value": "oklch(0.482035 0.027192 246.4101)"
+        },
+        "700": {
+          "value": "oklch(0.365214 0.033958 250.4029)"
+        },
+        "800": {
+          "value": "oklch(0.278078 0.029596 256.8480)"
+        },
+        "900": {
+          "value": "oklch(0.278078 0.029596 256.8480)"
+        },
+        "950": {
+          "value": "oklch(0.278078 0.029596 256.8480)"
+        }
+      },
+      "black": {
+        "value": "oklch(0.278078 0.029596 256.8480)"
+      },
+      "white": {
+        "value": "oklch(1.000000 0.000000 89.8756)"
+      }
+    }
+  },
+  "globalCss": {
+    "body": {
+      "backgroundColor": "#F4F7FF",
+      "--chakra-colors-success-solid": "#2F7A28",
+      "--chakra-colors-failed-solid": "#CC0000",
+      "--chakra-colors-queued-solid": "#52606D",
+      "--chakra-colors-running-solid": "#157A8C",
+      "--chakra-colors-scheduled-solid": "#3B4CCA",
+      "--chakra-colors-skipped-solid": "#3B7A32",
+      "--chakra-colors-removed-solid": "#1F2937",
+      "--chakra-colors-restarting-solid": "#26358C",
+      "--chakra-colors-deferred-solid": "#A040A0",
+      "--chakra-colors-up_for_reschedule-solid": "#1A6B7A",
+      "--chakra-colors-up_for_retry-solid": "#8A6A00",
+      "--chakra-colors-upstream_failed-solid": "#2A1113",
+      "--chakra-colors-success-contrast": "#FFFFFF",
+      "--chakra-colors-failed-contrast": "#FFFFFF",
+      "--chakra-colors-queued-contrast": "#FFFFFF",
+      "--chakra-colors-running-contrast": "#FFFFFF",
+      "--chakra-colors-scheduled-contrast": "#FFFFFF",
+      "--chakra-colors-skipped-contrast": "#FFFFFF",
+      "--chakra-colors-removed-contrast": "#FFFFFF",
+      "--chakra-colors-restarting-contrast": "#FFFFFF",
+      "--chakra-colors-deferred-contrast": "#FFFFFF",
+      "--chakra-colors-up_for_reschedule-contrast": "#FFFFFF",
+      "--chakra-colors-up_for_retry-contrast": "#FFFFFF",
+      "--chakra-colors-upstream_failed-contrast": "#FFFFFF",
+      "color": "#1F2937"
+    },
+    "::selection": {
+      "backgroundColor": "#D6DEFF",
+      "color": "#1F2937"
+    }
+  }
+}

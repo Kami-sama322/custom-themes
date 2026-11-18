@@ -1,0 +1,370 @@
+:root {
+  --p-bg: #080C18;
+  --p-header: #121A33;
+  --p-card: #1A2547;
+  --p-button: #202E59;
+  --p-line: #2C3E73;
+  --p-fg: #F5F7FF;
+  --p-muted: #7E8AAF;
+  --p-secondary: #B8C3E6;
+  --p-accent: #FFCB05;
+  --p-accent-hover: #E3B400;
+  --p-accent-fg: #17275C;
+  --p-string: #8ED060;
+}
+
+/* Airflow 2.10 grid run bars contain a white inline run-type icon. */
+[data-testid="run"] > svg[data-testid$="-run"] {
+  color: #080C18 !important;
+}
+
+html,
+body,
+#main_content,
+#react-container,
+#root {
+  background-color: var(--p-bg);
+  color: var(--p-fg);
+}
+
+a {
+  color: var(--p-accent);
+}
+
+a:hover,
+a:focus {
+  color: var(--p-accent-hover);
+}
+
+::selection {
+  background-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+.navbar {
+  background-color: var(--p-header) !important;
+  border-color: var(--p-line);
+  box-shadow: 0 3px 3px var(--p-bg);
+}
+
+.navbar a,
+.navbar-nav > li > a,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:hover,
+.navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: var(--p-fg);
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:hover {
+  background-color: var(--p-line);
+}
+
+.navbar .caret {
+  border-top-color: var(--p-fg);
+  border-bottom-color: var(--p-fg);
+}
+
+.navbar-toggle .icon-bar {
+  background-color: var(--p-fg);
+}
+
+.brand-logo > path {
+  fill: var(--p-accent);
+}
+
+.navbar-user-icon {
+  background-color: var(--p-accent);
+  color: var(--p-accent-fg);
+}
+
+.dropdown-menu {
+  background-color: var(--p-card);
+  border-color: var(--p-line);
+}
+
+.dropdown-menu > li > a,
+.dropdown-form-btn {
+  background-color: transparent;
+  color: var(--p-fg);
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-form-btn:hover,
+.dropdown-form-btn:focus {
+  background-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+.panel,
+.panel-default,
+.modal-content,
+.list-group-item,
+.well {
+  background-color: var(--p-card);
+  border-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+.panel-default > .panel-heading,
+.panel-footer,
+.modal-header,
+.modal-footer {
+  background-color: var(--p-header);
+  border-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+.table,
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th {
+  background-color: var(--p-bg);
+  border-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+.table > thead > tr > th {
+  background-color: var(--p-header);
+  color: var(--p-secondary);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd),
+.table-striped > tbody > tr:nth-of-type(odd) > td,
+.table-striped > tbody > tr:nth-of-type(odd) > th {
+  background-color: var(--p-header);
+}
+
+.table-hover > tbody > tr:hover,
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: var(--p-card);
+}
+
+.table-bordered,
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > td {
+  border-color: var(--p-line);
+}
+
+.form-control,
+.typeahead.form-control,
+.select2-container .select2-choice,
+.select2-drop,
+.select2-search input {
+  background-color: var(--p-header);
+  border-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+.form-control::placeholder {
+  color: var(--p-muted);
+}
+
+.form-control:focus,
+.select2-container-active .select2-choice,
+.select2-drop-active {
+  border-color: var(--p-accent);
+  box-shadow: 0 0 0 2px var(--p-line);
+}
+
+.btn-default {
+  background-color: var(--p-button);
+  border-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  background-color: var(--p-line);
+  border-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+.btn-primary {
+  background-color: var(--p-accent);
+  border-color: var(--p-accent);
+  color: var(--p-accent-fg);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  background-color: var(--p-accent-hover);
+  border-color: var(--p-accent-hover);
+  color: var(--p-accent-fg);
+}
+
+.btn:focus,
+.form-control:focus {
+  outline: 2px solid var(--p-accent);
+}
+
+.btn-default[disabled],
+.btn-default.disabled,
+.btn-primary[disabled],
+.btn-primary.disabled,
+.form-control[disabled],
+.form-control[readonly] {
+  background-color: var(--p-header);
+  border-color: var(--p-line);
+  color: var(--p-muted);
+}
+
+.nav-tabs {
+  border-bottom-color: var(--p-line);
+}
+
+.nav-tabs > li > a {
+  color: var(--p-secondary);
+}
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background-color: var(--p-card);
+  border-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  background-color: var(--p-button);
+  border-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+.pagination > li > a:hover,
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > span {
+  background-color: var(--p-accent);
+  border-color: var(--p-accent);
+  color: var(--p-accent-fg);
+}
+
+.breadcrumb {
+  background-color: var(--p-header);
+  color: var(--p-secondary);
+}
+
+.label-default {
+  background-color: var(--p-button);
+  color: var(--p-fg);
+}
+
+.footer {
+  background-color: var(--p-header);
+  color: var(--p-muted);
+}
+
+.footer a {
+  color: var(--p-accent);
+}
+
+.dag-view-tools {
+  background-color: var(--p-header);
+}
+
+.legend-item {
+  border-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+.text-muted {
+  color: var(--p-muted);
+}
+
+hr {
+  border-top-color: var(--p-line);
+}
+
+pre,
+code,
+.code,
+#sql,
+.hll {
+  background-color: var(--p-bg);
+  border-color: var(--p-line);
+  color: var(--p-fg);
+}
+
+pre .c,
+pre .c1,
+pre .cm,
+pre .cs,
+pre .cp,
+.highlighttable .c,
+.highlighttable .c1,
+.highlighttable .cm {
+  color: var(--p-muted);
+}
+
+pre .k,
+pre .kd,
+pre .kn,
+pre .kr,
+pre .kc,
+.highlighttable .k,
+.highlighttable .kd,
+.highlighttable .kn {
+  color: var(--p-accent);
+}
+
+pre .s,
+pre .s1,
+pre .s2,
+pre .sb,
+.highlighttable .s,
+.highlighttable .s1,
+.highlighttable .s2 {
+  color: var(--p-string);
+}
+
+pre .n,
+pre .nf,
+pre .nv,
+.highlighttable .n,
+.highlighttable .nf {
+  color: var(--p-secondary);
+}
+
+.switch {
+  background-color: var(--p-button);
+}
+
+.switch::before {
+  background-color: var(--p-secondary);
+}
+
+.switch-input:not(.switch-input--error):checked + .switch {
+  background-color: var(--p-accent);
+}
+
+.switch-input:not(.switch-input--error):checked + .switch::before {
+  background-color: var(--p-accent-fg);
+}
+
+.switch-input:not(.switch-input--error):focus + .switch {
+  box-shadow: 0 0 0 3px var(--p-line);
+}
+
+.switch-input:not(.switch-input--error):not(:checked) + .switch:hover {
+  background-color: var(--p-line);
+}

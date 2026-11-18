@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="pokemon-light-pastel" name="Pokémon Light Pastel" author="user1">
+    <background color="#FFFFFF" />
+    <foreground color="#314050" />
+    <currentLine color="#F4F7FF" />
+    <lineNumber color="#5E6C7A" />
+    <selectionBackground color="#D6DEFF" />
+    <selectionForeground color="#314050" />
+    <searchResultIndication color="#4553C0" />
+    <filteredSearchResultIndication color="#D6DEFF" />
+    <occurrenceIndication color="#D6DEFF" />
+    <writeOccurrenceIndication color="#E8ECFF" />
+    <findScope color="#E8ECFF" />
+    <deletionIndication color="#C44747" />
+    <sourceHoverBackground color="#EEF1FF" />
+    <singleLineComment color="#5E6C7A" italic="true" />
+    <multiLineComment color="#5E6C7A" italic="true" />
+    <commentTaskTag color="#5563D8" />
+    <javadoc color="#5E6C7A" />
+    <javadocLink color="#157A8C" />
+    <javadocTag color="#5563D8" />
+    <javadocKeyword color="#5563D8" />
+    <class color="#3D4E85" />
+    <interface color="#3D4E85" />
+    <method color="#157A8C" />
+    <methodDeclaration color="#157A8C" />
+    <staticMethod color="#157A8C" />
+    <inheritedMethod color="#157A8C" />
+    <abstractMethod color="#157A8C" />
+    <bracket color="#5E6C7A" />
+    <number color="#8A6A00" />
+    <string color="#2F7A28" />
+    <operator color="#5E6C7A" />
+    <keyword color="#5563D8" />
+    <annotation color="#3D4E85" />
+    <localVariable color="#314050" />
+    <localVariableDeclaration color="#314050" />
+    <parameterVariable color="#5E6C7A" />
+    <field color="#1A6B7A" />
+    <staticField color="#1A6B7A" />
+    <staticFinalField color="#8A6A00" />
+    <constant color="#8A6A00" />
+    <enum color="#3D4E85" />
+    <typeArgument color="#3D4E85" />
+    <typeParameter color="#3D4E85" />
+    <deprecatedMember color="#5E6C7A" strikethrough="true" />
+</colorTheme>

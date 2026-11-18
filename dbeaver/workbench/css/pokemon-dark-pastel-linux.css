@@ -1,0 +1,92 @@
+@import url("platform:/plugin/org.eclipse.ui.themes/css/e4-dark_linux.css");
+@import url("platform:/plugin/org.eclipse.ui.themes/css/dark/e4-dark_preferencestyle.css");
+@import url("platform:/plugin/org.jkiss.dbeaver.core/css/e4-dark_dbeaver_prefstyle.css");
+@import url("platform:/plugin/org.jkiss.dbeaver.ui.editors.data/css/e4-dark-data-editor.css");
+
+Shell, Composite, CLabel, Label, Canvas, Sash, Group, Button, ToolBar {
+    background-color: #121A33;
+    color: #E4EAF6;
+}
+Shell Tree, Shell Table, Shell List, .MPart Tree, .MPart Table, .MPart List, .MPart Section Tree, Tree, Table, List, Text, StyledText, CCombo, Combo {
+    background-color: #080C18;
+    color: #E4EAF6;
+}
+CTabFolder, .MPartStack, .MPartStack.active {
+    background-color: #080C18;
+    color: #E4EAF6;
+    swt-unselected-tabs-color: #080C18 #080C18 100% 100%;
+    swt-selected-tab-fill: #1A2547;
+    swt-selected-tab-highlight: #F5D76E;
+}
+CTabItem, CTabItem CLabel { color: #8290B5; }
+CTabItem:selected, CTabItem:selected CLabel { color: #E4EAF6; }
+#org-eclipse-e4-ui-compatibility-editor Canvas,
+#org-eclipse-e4-ui-compatibility-editor Canvas > * { background-color: #080C18; }
+IEclipsePreferences#org-eclipse-ui-workbench:org-jkiss-dbeaver-core {
+    preferences:
+        'org.jkiss.dbeaver.txn.color.committed.background=44,61,40'
+        'org.jkiss.dbeaver.txn.color.reverted.background=65,36,44'
+        'org.jkiss.dbeaver.txn.color.transaction.background=40,57,69'
+        'org.jkiss.dbeaver.hex.editor.color.caret=245,215,110'
+        'org.jkiss.dbeaver.hex.editor.color.text=228,234,246'
+        'org.jkiss.dbeaver.xml.editor.color.tag=143,208,220'
+        'org.jkiss.dbeaver.xml.editor.color.text=228,234,246'
+        'org.jkiss.dbeaver.xml.editor.color.comment=130,144,181'
+        'org.jkiss.dbeaver.color.connectionType.qa.background=44,61,40'
+        'org.jkiss.dbeaver.color.connectionType.prod.background=65,36,44'
+        'org.jkiss.dbeaver.ui.navigator.node.transient.foreground=152,208,140'
+        'org.jkiss.dbeaver.ui.navigator.node.new.background=44,61,40'
+        'org.jkiss.dbeaver.ui.navigator.node.modified.background=61,56,36'
+        'org.jkiss.dbeaver.ui.navigator.node.foreground=174,187,224'
+        'org.jkiss.dbeaver.ui.navigator.node.statistics.background=44,62,115'
+}
+
+IEclipsePreferences#org-eclipse-ui-editors:org-eclipse-ui-themes {
+    preferences:
+        'AbstractTextEditor.Color.Background.SystemDefault=false'
+        'AbstractTextEditor.Color.Foreground.SystemDefault=false'
+        'AbstractTextEditor.Color.SelectionBackground.SystemDefault=false'
+        'AbstractTextEditor.Color.SelectionForeground.SystemDefault=false'
+        'AbstractTextEditor.Color.Background=8,12,24'
+        'AbstractTextEditor.Color.Foreground=228,234,246'
+        'AbstractTextEditor.Color.SelectionBackground=44,62,115'
+        'AbstractTextEditor.Color.SelectionForeground=228,234,246'
+        'currentLineColor=18,26,51'
+        'lineNumberColor=82,98,139'
+}
+
+IEclipsePreferences#org-eclipse-ui-workbench:dbeaver-sql-editor {
+    preferences:
+        'org.jkiss.dbeaver.sql.editor.color.keyword.foreground=154,166,240'
+        'org.jkiss.dbeaver.sql.editor.color.datatype.foreground=245,215,110'
+        'org.jkiss.dbeaver.sql.editor.color.function.foreground=143,208,220'
+        'org.jkiss.dbeaver.sql.editor.color.string.foreground=152,208,140'
+        'org.jkiss.dbeaver.sql.editor.color.number.foreground=249,223,133'
+        'org.jkiss.dbeaver.sql.editor.color.comment.foreground=130,144,181'
+        'org.jkiss.dbeaver.sql.editor.color.delimiter.foreground=174,187,224'
+        'org.jkiss.dbeaver.sql.editor.color.parameter.foreground=174,187,224'
+        'org.jkiss.dbeaver.sql.editor.color.sqlVariable.foreground=228,234,246'
+        'org.jkiss.dbeaver.sql.editor.color.command.foreground=154,166,240'
+        'org.jkiss.dbeaver.sql.editor.color.table.foreground=228,234,246'
+        'org.jkiss.dbeaver.sql.editor.color.table.alias.foreground=228,234,246'
+        'org.jkiss.dbeaver.sql.editor.color.column.foreground=168,216,232'
+        'org.jkiss.dbeaver.sql.editor.color.column.derived.foreground=168,216,232'
+        'org.jkiss.dbeaver.sql.editor.color.schema.foreground=245,215,110'
+        'org.jkiss.dbeaver.sql.editor.color.composite.field.foreground=168,216,232'
+        'org.jkiss.dbeaver.sql.editor.color.semanticError.foreground=232,143,143'
+        'org.jkiss.dbeaver.sql.editor.color.text.foreground=228,234,246'
+        'org.jkiss.dbeaver.sql.editor.color.text.background=8,12,24'
+        'org.jkiss.dbeaver.sql.editor.color.disabled.background=18,26,51'
+}
+
+IEclipsePreferences#org-eclipse-ui-workbench:dbeaver-data-editor {
+    preferences:
+        'org.jkiss.dbeaver.sql.resultset.color.cell.odd.background=18,26,51'
+        'org.jkiss.dbeaver.sql.resultset.color.cell.modified.background=61,56,36'
+        'org.jkiss.dbeaver.sql.resultset.color.cell.error.background=99,46,49'
+        'org.jkiss.dbeaver.sql.resultset.color.cell.new.background=44,61,40'
+        'org.jkiss.dbeaver.sql.resultset.color.cell.deleted.background=65,36,44'
+        'org.jkiss.dbeaver.sql.resultset.color.cell.matched.background=40,57,69'
+        'org.jkiss.dbeaver.sql.resultset.color.selection.background=44,62,115'
+        'org.jkiss.dbeaver.sql.resultset.color.selection.foreground=228,234,246'
+}

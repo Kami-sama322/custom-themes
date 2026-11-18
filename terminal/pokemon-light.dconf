@@ -1,0 +1,14 @@
+[/]
+visible-name='Pokémon Light'
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+foreground-color='#1F2937'
+background-color='#FFFFFF'
+cursor-colors-set=true
+cursor-background-color='#3B4CCA'
+cursor-foreground-color='#FFFFFF'
+highlight-colors-set=true
+highlight-background-color='#D6DEFF'
+highlight-foreground-color='#1F2937'
+palette=['#1F2937', '#CC0000', '#3B7A32', '#8A6A00', '#26358C', '#A040A0', '#157A8C', '#1F2937', '#52606D', '#CC0000', '#2F7A28', '#8A6A00', '#3B4CCA', '#A040A0', '#1A6B7A', '#FFFFFF']

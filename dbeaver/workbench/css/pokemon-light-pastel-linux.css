@@ -1,0 +1,60 @@
+@import url("platform:/plugin/org.eclipse.ui.themes/css/e4_default_gtk.css");
+@import url("platform:/plugin/org.eclipse.ui.themes/css/light/e4-light_globalstyle.css");
+@import url("platform:/plugin/org.jkiss.dbeaver.core/css/e4-dbeaver_prefstyle.css");
+
+Shell, Composite, CLabel, Label, Canvas, Sash, Group, Button, ToolBar {
+    background-color: #F4F7FF;
+    color: #314050;
+}
+Shell Tree, Shell Table, Shell List, .MPart Tree, .MPart Table, .MPart List, .MPart Section Tree, Tree, Table, List, Text, StyledText, CCombo, Combo {
+    background-color: #FFFFFF;
+    color: #314050;
+}
+CTabFolder, .MPartStack, .MPartStack.active {
+    background-color: #FFFFFF;
+    color: #314050;
+    swt-unselected-tabs-color: #FFFFFF #FFFFFF 100% 100%;
+    swt-selected-tab-fill: #EEF1FF;
+    swt-selected-tab-highlight: #5563D8;
+}
+CTabItem, CTabItem CLabel { color: #5E6C7A; }
+CTabItem:selected, CTabItem:selected CLabel { color: #314050; }
+#org-eclipse-e4-ui-compatibility-editor Canvas,
+#org-eclipse-e4-ui-compatibility-editor Canvas > * { background-color: #FFFFFF; }
+IEclipsePreferences#org-eclipse-ui-editors:org-eclipse-ui-themes {
+    preferences:
+        'AbstractTextEditor.Color.Background.SystemDefault=false'
+        'AbstractTextEditor.Color.Foreground.SystemDefault=false'
+        'AbstractTextEditor.Color.SelectionBackground.SystemDefault=false'
+        'AbstractTextEditor.Color.SelectionForeground.SystemDefault=false'
+        'AbstractTextEditor.Color.Background=255,255,255'
+        'AbstractTextEditor.Color.Foreground=49,64,80'
+        'AbstractTextEditor.Color.SelectionBackground=214,222,255'
+        'AbstractTextEditor.Color.SelectionForeground=49,64,80'
+        'currentLineColor=244,247,255'
+        'lineNumberColor=94,108,122'
+}
+
+IEclipsePreferences#org-eclipse-ui-workbench:dbeaver-sql-editor {
+    preferences:
+        'org.jkiss.dbeaver.sql.editor.color.keyword.foreground=85,99,216'
+        'org.jkiss.dbeaver.sql.editor.color.datatype.foreground=61,78,133'
+        'org.jkiss.dbeaver.sql.editor.color.function.foreground=21,122,140'
+        'org.jkiss.dbeaver.sql.editor.color.string.foreground=47,122,40'
+        'org.jkiss.dbeaver.sql.editor.color.number.foreground=138,106,0'
+        'org.jkiss.dbeaver.sql.editor.color.comment.foreground=94,108,122'
+        'org.jkiss.dbeaver.sql.editor.color.delimiter.foreground=94,108,122'
+        'org.jkiss.dbeaver.sql.editor.color.parameter.foreground=94,108,122'
+        'org.jkiss.dbeaver.sql.editor.color.sqlVariable.foreground=49,64,80'
+        'org.jkiss.dbeaver.sql.editor.color.command.foreground=85,99,216'
+        'org.jkiss.dbeaver.sql.editor.color.table.foreground=49,64,80'
+        'org.jkiss.dbeaver.sql.editor.color.table.alias.foreground=49,64,80'
+        'org.jkiss.dbeaver.sql.editor.color.column.foreground=26,107,122'
+        'org.jkiss.dbeaver.sql.editor.color.column.derived.foreground=26,107,122'
+        'org.jkiss.dbeaver.sql.editor.color.schema.foreground=61,78,133'
+        'org.jkiss.dbeaver.sql.editor.color.composite.field.foreground=26,107,122'
+        'org.jkiss.dbeaver.sql.editor.color.semanticError.foreground=196,71,71'
+        'org.jkiss.dbeaver.sql.editor.color.text.foreground=49,64,80'
+        'org.jkiss.dbeaver.sql.editor.color.text.background=255,255,255'
+        'org.jkiss.dbeaver.sql.editor.color.disabled.background=244,247,255'
+}

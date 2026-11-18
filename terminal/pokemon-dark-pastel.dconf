@@ -1,0 +1,14 @@
+[/]
+visible-name='Pokémon Dark Pastel'
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+foreground-color='#E4EAF6'
+background-color='#080C18'
+cursor-colors-set=true
+cursor-background-color='#F5D76E'
+cursor-foreground-color='#080C18'
+highlight-colors-set=true
+highlight-background-color='#2C3E73'
+highlight-foreground-color='#E4EAF6'
+palette=['#121A33', '#DE8F8F', '#9BD68F', '#F5D76E', '#8C9AE8', '#D2A0C0', '#8FD0DC', '#E4EAF6', '#8290B5', '#E89A9A', '#A8DFA0', '#F9DF85', '#A8B4F5', '#DDB4D2', '#A5DCE8', '#F2F5FC']

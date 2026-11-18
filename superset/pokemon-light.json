@@ -1,0 +1,146 @@
+{
+  "token": {
+    "brandAppName": "Pokémon Analytics",
+    "colorPrimary": "#3B4CCA",
+    "colorInfo": "#3B4CCA",
+    "colorSuccess": "#2F7A28",
+    "colorWarning": "#8A6A00",
+    "colorError": "#CC0000",
+    "colorText": "#1F2937",
+    "colorTextSecondary": "#52606D",
+    "colorTextTertiary": "#7B8794",
+    "colorTextDisabled": "#A0AEC0",
+    "colorBgBase": "#FFFFFF",
+    "colorBgContainer": "#FFFFFF",
+    "colorBgElevated": "#FFFFFF",
+    "colorBgLayout": "#F4F7FF",
+    "colorBgSpotlight": "#26358C",
+    "colorBorder": "#D6DEFF",
+    "colorBorderSecondary": "#E7EBFA",
+    "colorFill": "#EEF1FF",
+    "colorFillSecondary": "#F6F8FF",
+    "colorFillTertiary": "#FAFBFF",
+    "borderRadius": 8,
+    "borderRadiusLG": 12,
+    "borderRadiusSM": 6,
+    "controlHeight": 36,
+    "controlHeightLG": 44,
+    "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "fontFamilyCode": "\"IBM Plex Mono\", \"SFMono-Regular\", Consolas, monospace",
+    "boxShadow": "0 2px 8px rgba(59, 76, 202, 0.12)",
+    "boxShadowSecondary": "0 6px 18px rgba(59, 76, 202, 0.16)"
+  },
+  "components": {
+    "Button": {
+      "primaryShadow": "0 3px 0 rgba(59, 76, 202, 0.22)",
+      "defaultBorderColor": "#B9C5F5"
+    },
+    "Menu": {
+      "itemSelectedBg": "#E8ECFF",
+      "itemSelectedColor": "#26358C",
+      "itemHoverBg": "#F0F3FF",
+      "itemHoverColor": "#26358C"
+    },
+    "Table": {
+      "headerBg": "#EEF1FF",
+      "headerColor": "#26358C",
+      "rowHoverBg": "#FAFBFF",
+      "borderColor": "#D6DEFF"
+    },
+    "Card": {
+      "headerBg": "#FFFFFF"
+    },
+    "Input": {
+      "activeBorderColor": "#3B4CCA",
+      "hoverBorderColor": "#6C7BE0"
+    },
+    "Select": {
+      "optionSelectedBg": "#E8ECFF"
+    },
+    "Tabs": {
+      "itemSelectedColor": "#3B4CCA",
+      "itemHoverColor": "#6C7BE0",
+      "inkBarColor": "#3B4CCA"
+    },
+    "Tag": {
+      "defaultBg": "#EEF1FF",
+      "defaultColor": "#26358C"
+    }
+  },
+  "echartsOptionsOverrides": {
+    "color": [
+      "#CC0000",
+      "#3B4CCA",
+      "#8A6A00",
+      "#2F7A28",
+      "#A040A0",
+      "#6890F0",
+      "#F08030",
+      "#78C850",
+      "#F85888",
+      "#A8B820",
+      "#B8A038",
+      "#705898",
+      "#7038F8",
+      "#EE99AC",
+      "#B8B8D0",
+      "#A8A878"
+    ],
+    "backgroundColor": "transparent",
+    "textStyle": {
+      "color": "#52606D",
+      "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+    },
+    "title": {
+      "textStyle": {
+        "color": "#26358C",
+        "fontSize": 18,
+        "fontWeight": "bold"
+      }
+    },
+    "legend": {
+      "textStyle": {
+        "color": "#52606D"
+      }
+    },
+    "tooltip": {
+      "backgroundColor": "#26358C",
+      "borderColor": "#3B4CCA",
+      "borderWidth": 2,
+      "textStyle": {
+        "color": "#FFFFFF"
+      }
+    },
+    "categoryAxis": {
+      "axisLine": {
+        "lineStyle": {
+          "color": "#B9C5F5"
+        }
+      },
+      "axisLabel": {
+        "color": "#52606D"
+      },
+      "splitLine": {
+        "lineStyle": {
+          "color": "#E7EBFA"
+        }
+      }
+    },
+    "valueAxis": {
+      "axisLine": {
+        "lineStyle": {
+          "color": "#B9C5F5"
+        }
+      },
+      "axisLabel": {
+        "color": "#52606D"
+      },
+      "splitLine": {
+        "lineStyle": {
+          "color": "#E7EBFA",
+          "type": "dashed"
+        }
+      }
+    }
+  }
+}

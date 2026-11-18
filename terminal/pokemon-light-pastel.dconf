@@ -1,0 +1,14 @@
+[/]
+visible-name='Pokémon Light Pastel'
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+foreground-color='#314050'
+background-color='#FFFFFF'
+cursor-colors-set=true
+cursor-background-color='#5563D8'
+cursor-foreground-color='#FFFFFF'
+highlight-colors-set=true
+highlight-background-color='#D6DEFF'
+highlight-foreground-color='#314050'
+palette=['#314050', '#C44747', '#3B7A32', '#8A6A00', '#3D4E85', '#A040A0', '#157A8C', '#314050', '#5E6C7A', '#C44747', '#2F7A28', '#8A6A00', '#5563D8', '#A040A0', '#1A6B7A', '#FFFFFF']

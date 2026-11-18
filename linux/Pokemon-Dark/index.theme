@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Pokémon Dark
+Type=X-GNOME-Metatheme
+Comment=Dark navy and yellow theme for Ubuntu GNOME
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Pokemon-Dark
+MetacityTheme=Yaru-dark
+IconTheme=Yaru
+CursorTheme=Yaru
